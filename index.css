@@ -1,0 +1,184 @@
+body{
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+div{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    margin: 0px;
+    padding: 0px;
+}
+h2{
+    margin: 0px;
+    padding: 0px;
+}
+p{
+    margin: 0px;
+    padding: 0px;
+}
+.img{
+    position: relative;
+    width: 100%;
+    height: 641px;
+    filter: brightness(0.6);
+
+}
+.Machine{
+    position: absolute;
+    background-color: #5499C7;
+    border: solid 5px;
+    border-radius: 14px;
+    border-color: #5499C7;
+    box-shadow: 3px 3px 4px 4px rgb(0, 0, 0);
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 130px;
+    padding: 20px 40px;
+    align-items: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.Ticket{
+    margin-top: 30px;
+    font-weight: 900;
+    font-size: 22px;
+}
+.zero{
+    margin-top: 20px;
+    font-size: 29px;
+}
+.increment-css{
+    background-color: #000000;
+    color: white;
+    border-color: #000000;
+    border-radius: 14px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 700;
+    width: 320px;
+}
+.save-css{
+    background-color: #000000;
+    color: white;
+    border-color: #000000;
+    border-radius: 14px;
+    cursor: pointer;
+    margin-top: 5px;
+    font-size: 30px;
+    font-weight: 700;
+    width: 250px;
+}
+.pre{
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+@media screen and (min-width: 750px) and (max-width: 1200px) {
+    .img{
+        height: 1366px;
+    }
+    .Machine{
+        width: auto;
+        height: auto;
+        display: flex; 
+        flex-direction: column;
+        margin-top: 450px;
+        padding: 20px 40px;
+        align-items: center;
+
+    }
+    .Ticket{
+        margin-top: 30px;
+        font-weight: 900;
+        font-size: 30px;
+    }
+    .zero{
+        margin-top: 20px;
+        font-size: 35px;
+    }
+    .increment-css{
+        background-color: #000000;
+        color: white;
+        border-color: #000000;
+        border-radius: 14px;
+        cursor: pointer;
+        margin-top: 20px;
+        font-size: 40px;
+        font-weight: 700;
+        width: 320px;
+    }
+    .save-css{
+        background-color: #000000;
+        color: white;
+        border-color: #000000;
+        border-radius: 14px;
+        cursor: pointer;
+        margin-top: 5px;
+        font-size: 40px;
+        font-weight: 700;
+        width: 250px;
+    }
+    .pre{
+        font-size: 30px;
+        font-weight: 600;
+        margin-top: 25px;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 750px) {
+    .img{
+        height: 1000px;
+    }
+    .Machine{
+        width: auto;
+        height: auto;
+        margin-top: 240px;
+        padding: 20px 40px;
+        align-items: center;
+
+    }
+    .Ticket{
+        margin-top: 30px;
+        font-weight: 900;
+        font-size: 19px;
+        text-align: center;
+    }
+    .zero{
+        margin-top: 20px;
+        font-size: 29px;
+    }
+    .increment-css{
+        background-color: #000000;
+        color: white;
+        border-color: #000000;
+        border-radius: 14px;
+        cursor: pointer;
+        margin-top: 20px;
+        font-size: 29px;
+        font-weight: 700;
+        width: 320px;
+    }
+    .save-css{
+        background-color: #000000;
+        color: white;
+        border-color: #000000;
+        border-radius: 14px;
+        cursor: pointer;
+        margin-top: 5px;
+        font-size: 29px;
+        font-weight: 700;
+        width: 250px;
+    }
+    .pre{
+        font-size: 23px;
+        font-weight: 600;
+        margin-top: 25px;
+    }
+}

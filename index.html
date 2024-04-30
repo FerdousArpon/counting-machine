@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Ticket Counter Machine</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <img class="img" src="resources/jordan-whitfield-sm3Ub_IJKQg-unsplash.jpg" alt="">
+            <div class="Machine">
+                <div class="Ticket">
+                    <h1>Bus Ticket Counter Machine</h1>
+                </div>
+                <div class="zero" >
+                    <h2 id="count-el"> 0 </h2>
+                </div>
+                <div >
+                    <button class="increment-css" id="increment-btn" onclick="increment()">
+                        INCREMENT
+                    </button>
+                </div>
+                <div>
+                    <button class="save-css" id="save-btn" onclick="save()">
+                        SAVE
+                    </button>
+                </div>
+                <div>
+                    <p class="pre" id="save-el">Previous Entries:</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
